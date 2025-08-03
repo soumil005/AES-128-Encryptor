@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_AES_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_AES" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="20.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="140.000 ns"></ZoomEndTime>
+      <Cursor1Time time="120.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="139"></NameColumnWidth>
+      <ValueColumnWidth column_width="342"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="16" />
+   <wvobject fp_name="/tb_AES/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AES/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AES/in" type="array">
+      <obj_property name="ElementShortName">in[127:0]</obj_property>
+      <obj_property name="ObjectShortName">in[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AES/key" type="array">
+      <obj_property name="ElementShortName">key[127:0]</obj_property>
+      <obj_property name="ObjectShortName">key[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AES/dut/KeyExpansion/key0" type="array">
+      <obj_property name="ElementShortName">key0[0:3][0:3][7:0]</obj_property>
+      <obj_property name="ObjectShortName">key0[0:3][0:3][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AES/dut/KeyExpansion/key1" type="array">
+      <obj_property name="ElementShortName">key1[0:3][0:3][7:0]</obj_property>
+      <obj_property name="ObjectShortName">key1[0:3][0:3][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AES/dut/KeyExpansion/key2" type="array">
+      <obj_property name="ElementShortName">key2[0:3][0:3][7:0]</obj_property>
+      <obj_property name="ObjectShortName">key2[0:3][0:3][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AES/dut/KeyExpansion/key3" type="array">
+      <obj_property name="ElementShortName">key3[0:3][0:3][7:0]</obj_property>
+      <obj_property name="ObjectShortName">key3[0:3][0:3][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AES/dut/KeyExpansion/key4" type="array">
+      <obj_property name="ElementShortName">key4[0:3][0:3][7:0]</obj_property>
+      <obj_property name="ObjectShortName">key4[0:3][0:3][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AES/dut/KeyExpansion/key5" type="array">
+      <obj_property name="ElementShortName">key5[0:3][0:3][7:0]</obj_property>
+      <obj_property name="ObjectShortName">key5[0:3][0:3][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AES/dut/KeyExpansion/key6" type="array">
+      <obj_property name="ElementShortName">key6[0:3][0:3][7:0]</obj_property>
+      <obj_property name="ObjectShortName">key6[0:3][0:3][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AES/dut/KeyExpansion/key7" type="array">
+      <obj_property name="ElementShortName">key7[0:3][0:3][7:0]</obj_property>
+      <obj_property name="ObjectShortName">key7[0:3][0:3][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AES/dut/KeyExpansion/key8" type="array">
+      <obj_property name="ElementShortName">key8[0:3][0:3][7:0]</obj_property>
+      <obj_property name="ObjectShortName">key8[0:3][0:3][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AES/dut/KeyExpansion/key9" type="array">
+      <obj_property name="ElementShortName">key9[0:3][0:3][7:0]</obj_property>
+      <obj_property name="ObjectShortName">key9[0:3][0:3][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AES/dut/KeyExpansion/key10" type="array">
+      <obj_property name="ElementShortName">key10[0:3][0:3][7:0]</obj_property>
+      <obj_property name="ObjectShortName">key10[0:3][0:3][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AES/ciphertext" type="array">
+      <obj_property name="ElementShortName">ciphertext[127:0]</obj_property>
+      <obj_property name="ObjectShortName">ciphertext[127:0]</obj_property>
+   </wvobject>
+</wave_config>
